@@ -38,8 +38,13 @@ docker run -d -p 5000:5000 dockerized-app
 * http://localhost:5000
 * http://localhost:5000/health
 
-## 📈 Future Improvements
+## 📈 Future will try to Improve.
 
 * Add Docker Compose
 * Add Nginx reverse proxy
 * Deploy to Kubernetes
+
+# Docker cmd
+docker build -t dockerized-app:v1 .
+docker logs <container-id>
+docker stop <container-id>
